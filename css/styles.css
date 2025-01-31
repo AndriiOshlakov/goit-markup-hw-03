@@ -254,6 +254,8 @@ ol {
   color: #434455;
 }
 
+/*  PORTFOLIO  */
+
 .portfolio-title {
   text-transform: capitalize;
   font-weight: 700;
@@ -264,31 +266,21 @@ ol {
   color: #2e2f42;
 }
 
-/*  PORTFOLIO  */
-
 .portfolio {
   margin: 120px 0;
 }
 
 .portfolio-job-list {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 72px;
+  margin-bottom: 120px;
+  gap: 24px;
+  column-gap: 48px;
 }
 
 .portfolio-list {
   background: #fff;
-}
-
-.portfolio-list-1 {
-  align-items: center;
-  display: flex;
-  gap: 24px;
-  margin: 72px 0 48px;
-}
-
-.portfolio-list-2 {
-  display: flex;
-  align-items: center;
-  gap: 24px;
 }
 
 .portfolio img {
@@ -344,7 +336,7 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
@@ -363,5 +355,4 @@ ol {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  height: 72px;
 }
