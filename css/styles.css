@@ -43,6 +43,10 @@ ol {
 
 /* Header  */
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -81,6 +85,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .navi-link:hover,
@@ -130,7 +135,7 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  width: 496px;
+  max-width: 496px;
   height: 120px;
   margin: auto;
 }
@@ -146,9 +151,10 @@ ol {
   cursor: pointer;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   display: block;
+  border: none;
   border-radius: 4px;
   margin: 48px auto 0;
-  width: 169;
+  min-width: 169;
   height: 56;
   padding: 16px 32px;
 }
@@ -172,10 +178,13 @@ ol {
   overflow: hidden;
 }
 
+.section-advantages {
+  padding: 120px 0;
+}
+
 .advantages {
   display: flex;
   align-items: center;
-  padding: 120px 0;
   gap: 24px;
   /* width: calc((100%-3 * 24) / 4);*/
 }
@@ -204,14 +213,13 @@ ol {
 /*  TEAM  */
 .team {
   background-color: #f4f4fd;
-  padding: 120px auto 120px;
+  padding: 120px 0 120px;
 }
 
 .container-team-list {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding: 120px 0;
 }
 
 .team-title {
@@ -223,6 +231,7 @@ ol {
   text-align: center;
   color: #2e2f42;
   padding-top: 120px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -281,6 +290,8 @@ ol {
 
 .portfolio {
   margin: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-job-list {
@@ -335,7 +346,7 @@ ol {
 
 .footer {
   background: #2e2f42;
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .footer-info {
